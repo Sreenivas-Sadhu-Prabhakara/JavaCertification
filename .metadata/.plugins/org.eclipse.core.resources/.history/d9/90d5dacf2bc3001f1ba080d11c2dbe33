@@ -1,0 +1,13 @@
+package EnumsBeingUsed;
+
+import Coffee;
+
+public class CoffeeTest1{
+	
+	public static void main(String[] args) {
+		
+		Coffee c = new Coffee();
+		
+		c.size=CoffeeSize.Big;
+	}
+}
