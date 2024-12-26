@@ -1,0 +1,16 @@
+package Shadowing;
+
+public class ThisSize {
+	
+	int size = 27;
+	public void setSize(int size) {
+		size = size;
+		System.out.println("This is the size " +size);
+	}
+	
+	public static void main(String[] args) {
+		setSize s = new setSize();
+		s.size()
+	}
+
+}
